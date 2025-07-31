@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "sherpa.Shared.Protos";
+
+package sherpa.shared.protos;
+
+enum SherpaStatus {
+  None = 0;
+  Unknown = 1;
+  ConnectionLost = 100;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "sherpa.Shared.Protos";
+
+package sherpa.Shared.Protos.WeatherForecast;
+
+message WeatherForecast {
+  string date = 1;          
+  int32 temperatureC = 2;
+  string summary = 3; 
+}
+
+service WeatherForecastService {
+	rpc Communicate (stream WeatherForecast) returns (stream WeatherForecast);
+}

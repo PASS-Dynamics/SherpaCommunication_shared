@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "sherpa.Shared.Protos";
+
+package sherpa.shared.protos;
+
+message CamOptions {
+  int32 zoom = 1;
+  bool automaticBeamSync = 2;
+  bool camRec = 3;
+}
+
+service CamOptionsService {
+	rpc Communicate (stream CamOptions) returns (stream CamOptions);
+}

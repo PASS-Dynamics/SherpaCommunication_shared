@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "sherpa.Shared.Protos";
+
+package sherpa.shared.protos;
+
+message Attitude {
+  int32 rool = 1;
+  int32 pitch = 2;
+  int32 hdg = 3;
+}
+
+service AttitudeService {
+	rpc Communicate (stream Attitude) returns (stream Attitude);
+}

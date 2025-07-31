@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "sherpa.Shared.Protos";
+
+package sherpa.shared.protos;
+
+message JoystickInput {
+  float x = 1;
+  float y = 2;
+  float z = 3;
+}
+
+service JoystickInputService {
+	rpc Communicate (stream JoystickInput) returns (stream JoystickInput);
+}

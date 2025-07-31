@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "sherpa.Shared.Protos";
+
+package sherpa.shared.protos;
+
+message DiagnosticKeyValue {
+  int32 key = 1;
+  string value = 2;
+}
+
+message Diagnostic {
+  repeated DiagnosticKeyValue messages = 1;
+}
+
+service DiagnosticService {
+	rpc Communicate (stream Diagnostic) returns (stream Diagnostic);
+}

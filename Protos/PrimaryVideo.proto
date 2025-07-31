@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "sherpa.Shared.Protos";
+
+package sherpa.shared.protos;
+
+message PrimaryVideo {
+  int32 distance = 1;
+  string objectIdentified = 2;
+  int32 objectIdentifiedAccuracy = 3;
+}
+
+service PrimaryVideoService {
+	rpc Communicate (stream PrimaryVideo) returns (stream PrimaryVideo);
+}

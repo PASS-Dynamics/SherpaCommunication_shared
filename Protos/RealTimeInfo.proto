@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "sherpa.Shared.Protos";
+
+package sherpa.shared.protos;
+
+message RealTimeInfo {
+  int64 prop1 = 1;
+  int64 prop2 = 2;
+  int64 prop3 = 3;
+  int64 prop4 = 4;
+  int64 prop5 = 5;
+  int64 prop6 = 6;
+}
+
+service RealTimeInfoService {
+	rpc Communicate (stream RealTimeInfo) returns (stream RealTimeInfo);
+}
+

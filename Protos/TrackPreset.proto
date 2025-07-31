@@ -1,0 +1,20 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "sherpa.Shared.Protos";
+
+package sherpa.shared.protos;
+
+message TrackPresetKeyValue {
+  int32 key = 1;
+  string value = 2;
+}
+
+message TrackPreset {
+  repeated TrackPresetKeyValue tracks = 1;
+  TrackPresetKeyValue emittingTrack = 2;
+  bool loop = 3;
+}
+
+service TrackPresetService {
+	rpc Communicate (stream TrackPreset) returns (stream TrackPreset);
+}
