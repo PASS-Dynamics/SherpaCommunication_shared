@@ -10,7 +10,7 @@ namespace sherpa.Shared.Abstractions
 
         public bool LaserDazzler { get; set; }
 
-        public bool SearchLigth { get; set; }
+        public bool SearchLight { get; set; }
 
         public bool AhdEmission { get; set; }
 

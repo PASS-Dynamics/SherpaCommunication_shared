@@ -1,6 +1,6 @@
 ﻿namespace sherpa.Shared.Abstractions
 {
-    public class AcoustincHailer
+    public class AcousticHailer
     {
         public bool Mic { get; set; }
 

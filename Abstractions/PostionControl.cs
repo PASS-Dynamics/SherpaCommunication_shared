@@ -1,6 +1,6 @@
 ﻿namespace sherpa.Shared.Abstractions
 {
-    public class PostionControl
+    public class PositionControl
     {
         public bool Stabilization { get; set; }
 

@@ -1,10 +1,10 @@
 ﻿namespace sherpa.Shared.Abstractions
 {
-    public class SearchLigth
+    public class SearchLight
     {
         public bool Power { get; set; }
 
-        public short Intesity { get; set; }
+        public short Intensity { get; set; }
 
         public bool BeamAperture { get; set; }
     }

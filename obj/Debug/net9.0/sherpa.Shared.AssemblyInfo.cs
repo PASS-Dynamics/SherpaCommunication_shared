@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sherpa.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ce66eb25cca8c739861d8aa163c08aeec0edca4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e89606dd0c035b9aadc853edb446eba0d8d9c5c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("sherpa.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sherpa.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

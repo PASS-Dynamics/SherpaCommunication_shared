@@ -1,4 +1,4 @@
-﻿namespace Sherpa.Abstractions
+﻿namespace sherpa.Shared.Abstractions
 {
     public class RealTimeInfo
     {

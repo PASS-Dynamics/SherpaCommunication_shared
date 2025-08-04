@@ -7,7 +7,7 @@ struct SearchLigth
 {
     bool Power;
 
-    int16_t Intesity;
+    int16_t Intensity;
 
     bool BeamAperture;
 };

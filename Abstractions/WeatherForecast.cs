@@ -1,4 +1,4 @@
-namespace Sherpa
+namespace sherpa.Shared.Abstractions
 {
     public class WeatherForecast
     {

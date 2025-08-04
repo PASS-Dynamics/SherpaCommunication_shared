@@ -16,7 +16,7 @@
     <None Remove="Abstractions\C++\LaserDazzer.hpp" />
     <None Remove="Abstractions\C++\PostionControl.hpp" />
     <None Remove="Abstractions\C++\PrimaryVideo.hpp" />
-    <None Remove="Abstractions\C++\SearchLigth.hpp" />
+    <None Remove="Abstractions\C++\SearchLight.hpp" />
     <None Remove="Abstractions\C++\StatusInfo.hpp" />
     <None Remove="Abstractions\C++\TrackPreset.hpp" />
     <None Remove="Abstractions\C++\WeatherForecast.hpp" />
