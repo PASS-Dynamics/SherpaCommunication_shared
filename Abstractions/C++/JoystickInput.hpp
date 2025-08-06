@@ -1,8 +1,10 @@
 ﻿#ifndef JOYSTICKINPUT_HPP
 #define JOYSTICKINPUT_HPP
 
-struct JoystickInput 
+class JoystickInput 
 {
+	JoystickInput();
+	
     float X;
 
     float Y;

@@ -1,8 +1,10 @@
 ﻿#ifndef LASERDAZZER_HPP
 #define LASERDAZZER_HPP
 
-struct LaserDazzer 
+class LaserDazzer 
 {
+	LaserDazzer();
+	
     bool Power;
 
     bool Strobo;

@@ -8,15 +8,17 @@
 #include "SherpaStatus.hpp"
 #include "LfrStatus.hpp"
 
-struct StatusInfo 
+class StatusInfo 
 {
+	StatusInfo();
+	
     std::pair<int16_t, std::string> EmittingTrack;
 
     bool AudioTracking;
 
     bool LaserDazzler;
 
-    bool SearchLigth;
+    bool SearchLight;
 
     bool AhdEmission;
 

@@ -8,24 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Abstractions\C++\AcoustincHailer.hpp" />
-    <None Remove="Abstractions\C++\Attitude.hpp" />
-    <None Remove="Abstractions\C++\CamOptions.hpp" />
-    <None Remove="Abstractions\C++\Diagnostic.hpp" />
-    <None Remove="Abstractions\C++\JoystickInput.hpp" />
-    <None Remove="Abstractions\C++\LaserDazzer.hpp" />
-    <None Remove="Abstractions\C++\PostionControl.hpp" />
-    <None Remove="Abstractions\C++\PrimaryVideo.hpp" />
-    <None Remove="Abstractions\C++\SearchLight.hpp" />
-    <None Remove="Abstractions\C++\StatusInfo.hpp" />
-    <None Remove="Abstractions\C++\TrackPreset.hpp" />
-    <None Remove="Abstractions\C++\WeatherForecast.hpp" />
-    <None Remove="Enum\C++\enum.hpp" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Abstractions\C++\" />
     <Folder Include="Enum\C++\" />
+    <Folder Include="SherpaEnvelope\C++\" />
   </ItemGroup>
 
 </Project>

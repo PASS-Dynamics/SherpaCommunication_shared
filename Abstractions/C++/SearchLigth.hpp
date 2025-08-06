@@ -3,8 +3,10 @@
 
 #include <cstdint>
 
-struct SearchLigth 
+struct SearchLight
 {
+	SearchLight();
+	
     bool Power;
 
     int16_t Intensity;

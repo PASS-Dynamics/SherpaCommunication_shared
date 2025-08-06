@@ -17,7 +17,6 @@ C:\Dev\Sherpa.Local\sherpa.Shared\obj\Debug\net9.0\sherpa.Shared.GeneratedMSBuil
 C:\Dev\Sherpa.Local\sherpa.Shared\obj\Debug\net9.0\sherpa.Shared.AssemblyInfoInputs.cache
 C:\Dev\Sherpa.Local\sherpa.Shared\obj\Debug\net9.0\sherpa.Shared.AssemblyInfo.cs
 C:\Dev\Sherpa.Local\sherpa.Shared\obj\Debug\net9.0\sherpa.Shared.csproj.CoreCompileInputs.cache
-C:\Dev\Sherpa.Local\sherpa.Shared\obj\Debug\net9.0\sherpa.Shared.sourcelink.json
 C:\Dev\Sherpa.Local\sherpa.Shared\obj\Debug\net9.0\sherpa.Shared.dll
 C:\Dev\Sherpa.Local\sherpa.Shared\obj\Debug\net9.0\refint\sherpa.Shared.dll
 C:\Dev\Sherpa.Local\sherpa.Shared\obj\Debug\net9.0\sherpa.Shared.pdb

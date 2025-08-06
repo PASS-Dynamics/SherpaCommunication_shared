@@ -3,8 +3,10 @@
 
 #include <cstdint>
 
-struct Attitude 
+class Attitude 
 {
+	Attitude();
+	
     int16_t Rool;
 
     int16_t Pitch;

@@ -6,6 +6,8 @@
 
 struct PrimaryVideo 
 {
+	PrimaryVideo();
+	
     int16_t Distance;
 
     std::string ObjectIdentified;

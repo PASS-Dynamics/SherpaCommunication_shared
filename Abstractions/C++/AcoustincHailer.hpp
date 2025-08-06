@@ -3,8 +3,10 @@
 
 #include <cstdint>
 
-struct AcoustincHailer 
+class AcoustincHailer
 {
+	AcoustincHailer();
+	
     bool Mic;
 
     bool Mute;
