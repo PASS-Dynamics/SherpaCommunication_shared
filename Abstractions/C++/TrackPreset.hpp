@@ -8,8 +8,6 @@
 
 struct TrackPreset 
 {
-	TrackPreset();
-	
     std::vector<std::pair<int16_t, std::string>> Tracks;
 
     std::pair<int16_t, std::string> EmittingTrack;

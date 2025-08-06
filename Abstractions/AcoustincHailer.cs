@@ -1,7 +1,4 @@
-﻿using System.Runtime.InteropServices;
-using System.Threading;
-
-namespace sherpa.Shared.Abstractions
+﻿namespace sherpa.Shared.Abstractions
 {
     public class AcousticHailer
     {

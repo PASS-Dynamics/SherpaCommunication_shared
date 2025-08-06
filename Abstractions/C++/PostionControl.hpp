@@ -3,10 +3,8 @@
 
 #include <cstdint>
 
-class PostionControl 
+struct PostionControl 
 {
-	PostionControl();
-	
     bool Stabilization;
 
     bool GoToRestPosition;

@@ -7,8 +7,6 @@
 
 struct WeatherForecast 
 {
-	WeatherForecast();
-	
     std::string Date; 
 
     int32_t TemperatureC;

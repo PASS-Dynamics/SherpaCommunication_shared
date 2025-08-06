@@ -6,10 +6,8 @@
 #include <vector>
 #include <utility>
 
-class Diagnostic 
+struct Diagnostic 
 {
-	Diagnostic();
-	
     std::vector<std::pair<int16_t, std::string>> Messages;
 };
 

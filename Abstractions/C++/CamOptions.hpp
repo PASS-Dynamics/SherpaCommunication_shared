@@ -3,10 +3,8 @@
 
 #include <cstdint>
 
-class CamOptions 
+struct CamOptions 
 {
-	CamOptions();
-	
     int16_t Zoom;
 
     bool AutomaticBEamSync;
