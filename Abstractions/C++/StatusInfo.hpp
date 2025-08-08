@@ -5,13 +5,11 @@
 #include <string>
 #include <utility> 
 
-//#include "SherpaStatus.hpp"
-//#include "LfrStatus.hpp"
+#include "SherpaStatus.hpp"
+#include "LfrStatus.hpp"
 
 class StatusInfo 
 {
-public:
-
 	StatusInfo();
 	
     std::pair<int16_t, std::string> EmittingTrack;
@@ -24,9 +22,9 @@ public:
 
     bool AhdEmission;
 
-    //SherpaStatus Status;
+    SherpaStatus Status;
 
-    //LfrStatus Lfr;
+    LfrStatus Lfr;
 };
 
 #endif

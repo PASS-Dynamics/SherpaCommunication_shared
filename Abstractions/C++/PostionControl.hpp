@@ -5,8 +5,6 @@
 
 class PostionControl 
 {
-public:
-
 	PostionControl();
 	
     bool Stabilization;

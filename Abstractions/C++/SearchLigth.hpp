@@ -4,9 +4,7 @@
 #include <cstdint>
 
 struct SearchLight
-{    
-public:
-
+{
 	SearchLight();
 	
     bool Power;

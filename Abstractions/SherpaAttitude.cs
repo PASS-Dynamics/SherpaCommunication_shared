@@ -1,6 +1,6 @@
 ﻿namespace sherpa.Shared.Abstractions
 {
-    public class Attitude
+    public class SherpaAttitude
     {
         public short Rool { get; set; }
 

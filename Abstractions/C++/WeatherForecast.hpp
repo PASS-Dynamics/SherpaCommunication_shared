@@ -7,8 +7,6 @@
 
 struct WeatherForecast 
 {
-public:
-
 	WeatherForecast();
 	
     std::string Date; 

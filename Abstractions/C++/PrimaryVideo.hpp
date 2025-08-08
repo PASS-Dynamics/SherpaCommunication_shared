@@ -6,8 +6,6 @@
 
 struct PrimaryVideo 
 {
-public:
-
 	PrimaryVideo();
 	
     int16_t Distance;

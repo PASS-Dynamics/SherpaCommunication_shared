@@ -3,11 +3,9 @@
 
 #include <cstdint>
 
-class Attitude 
+class SherpaAttitude 
 {
-public:
-
-    Attitude(){}
+	SherpaAttitude();
 	
     int16_t Rool;
 
