@@ -33,7 +33,7 @@ enum class SherpaEnvelopeStatus
 template<typename T>
 struct SherpaEnvelope 
 {
-    SherpaEnvelopeType type;
+    SherpaEnvelopeType target;
     SherpaEnvelopeStatus status = SherpaEnvelopeStatus::ok;
     std::optional<std::string> error;
     std::chrono::system_clock::time_point timestamp = std::chrono::system_clock::now();

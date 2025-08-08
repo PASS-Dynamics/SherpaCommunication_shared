@@ -17,4 +17,28 @@ enum class LfrStatus : uint16_t
     ConnectionLost  = 100
 };
 
+enum SherpaEnvelopeType : uint16_t 
+{
+    AcousticHailer,
+    Attitude,
+    CamOptions,
+    Diagnostic,
+    JoystickInput,
+    LaserDazzer,
+    PostionControl,
+    PrimaryVideo,
+    RealTimeInfo,
+    SearchLigth,
+    StatusInfo,
+    TrackPreset,
+    WeatherForecast
+}
+
+enum SherpaEnvelopeStatus : uint16_t 
+{
+    ok,
+    error,
+    warning
+}
+
 #endif
