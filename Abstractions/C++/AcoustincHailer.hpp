@@ -4,9 +4,16 @@
 #include <cstdint>
 
 class AcoustincHailer
-{
-	AcoustincHailer();
-	
+{	
+public:
+    AcoustincHailer(){
+
+        Mic = false;
+        Mute = false;
+        Volume = 0;
+        AcousticBeamAperture = 0;
+    };
+
     bool Mic;
 
     bool Mute;
