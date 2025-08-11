@@ -7,7 +7,7 @@ class PostionControl
 {
 public:
 
-	PostionControl();
+    PostionControl(){};
 	
     bool Stabilization;
 

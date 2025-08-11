@@ -10,7 +10,7 @@ class Diagnostic
 {
 public:
 
-	Diagnostic();
+    Diagnostic(){};
 	
     std::vector<std::pair<int16_t, std::string>> Messages;
 };

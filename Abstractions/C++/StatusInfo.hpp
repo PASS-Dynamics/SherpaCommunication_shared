@@ -12,7 +12,7 @@ class StatusInfo
 {
 public:
 
-	StatusInfo();
+    StatusInfo(){};
 	
     std::pair<int16_t, std::string> EmittingTrack;
 
