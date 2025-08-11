@@ -7,7 +7,7 @@ struct SearchLight
 {    
 public:
 
-	SearchLight();
+    SearchLight(){};
 	
     bool Power;
 

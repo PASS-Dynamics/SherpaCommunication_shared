@@ -10,7 +10,7 @@ struct TrackPreset
 {
 public:
 
-	TrackPreset();
+    TrackPreset(){};
 	
     std::vector<std::pair<int16_t, std::string>> Tracks;
 

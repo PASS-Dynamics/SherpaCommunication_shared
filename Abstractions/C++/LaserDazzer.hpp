@@ -5,7 +5,7 @@ class LaserDazzer
 {
 public:
 
-	LaserDazzer();
+    LaserDazzer(){};
 	
     bool Power;
 

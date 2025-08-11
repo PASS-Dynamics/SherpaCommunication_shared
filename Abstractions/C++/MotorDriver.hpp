@@ -6,11 +6,26 @@
 #include <vector>
 #include <utility>
 
+
+typedef enum MotorDriverCmd
+{
+    set_enable,
+    set_position,
+    set_reset,
+    set_current,
+    set_profile,
+    get_status
+
+
+}MotorDriverCmd;
+
 class MotorDriver 
 {
 public:
 
 	MotorDriver(){};
+
+    MotorDriverCmd cmd;
 	
     bool enable;
     uint8_t errors;
