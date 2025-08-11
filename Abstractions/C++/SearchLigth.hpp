@@ -4,10 +4,15 @@
 #include <cstdint>
 
 struct SearchLight
+<<<<<<< HEAD
 {    
 public:
 
     SearchLight(){};
+=======
+{
+	SearchLight();
+>>>>>>> develop
 	
     bool Power;
 

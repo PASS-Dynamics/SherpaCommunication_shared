@@ -4,8 +4,9 @@
 #include <string>
 #include <optional>
 #include <chrono>
+#include <nlohmann/json.hpp>
 
-enum class SherpaEnvelopeType
+enum class SherpaEnvelopeType 
 {
     AcoustincHailer,
     Attitude,
@@ -19,27 +20,25 @@ enum class SherpaEnvelopeType
     SearchLigth,
     StatusInfo,
     TrackPreset,
-    WeatherForecast,
-    MotorDriver
+    WeatherForecast
 };
 
-enum class SherpaEnvelopeStatus
+enum class SherpaEnvelopeStatus 
 {
     ok,
     error,
     warning
 };
 
-class SherpaEnvelope
+template<typename T>
+struct SherpaEnvelope 
 {
-public:
-    SherpaEnvelope(){};
-    SherpaEnvelopeType type;
+    SherpaEnvelopeType target;
     SherpaEnvelopeStatus status = SherpaEnvelopeStatus::ok;
-    std::string error;
-    uint64_t timestamp = 0;
-    std::string id;
-    std::string payload;
+    std::optional<std::string> error;
+    std::chrono::system_clock::time_point timestamp = std::chrono::system_clock::now();
+    std::optional<std::string> id;
+    std::optional<std::string> payload;
 };
 
-#endif
+#endif 

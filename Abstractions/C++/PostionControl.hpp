@@ -5,9 +5,13 @@
 
 class PostionControl 
 {
+<<<<<<< HEAD
 public:
 
     PostionControl(){};
+=======
+	PostionControl();
+>>>>>>> develop
 	
     bool Stabilization;
 

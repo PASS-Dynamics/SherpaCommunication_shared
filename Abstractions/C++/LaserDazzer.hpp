@@ -3,9 +3,13 @@
 
 class LaserDazzer 
 {
+<<<<<<< HEAD
 public:
 
     LaserDazzer(){};
+=======
+	LaserDazzer();
+>>>>>>> develop
 	
     bool Power;
 

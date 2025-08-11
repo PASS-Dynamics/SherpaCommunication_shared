@@ -7,9 +7,13 @@
 
 struct WeatherForecast 
 {
+<<<<<<< HEAD
 public:
 
     WeatherForecast(){};
+=======
+	WeatherForecast();
+>>>>>>> develop
 	
     std::string Date; 
 
