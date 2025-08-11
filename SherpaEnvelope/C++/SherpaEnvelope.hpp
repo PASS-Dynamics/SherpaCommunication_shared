@@ -5,7 +5,7 @@
 #include <optional>
 #include <chrono>
 
-enum class SherpaEnvelopeType 
+enum class SherpaEnvelopeType
 {
     AcoustincHailer,
     Attitude,
@@ -23,7 +23,7 @@ enum class SherpaEnvelopeType
     MotorDriver
 };
 
-enum class SherpaEnvelopeStatus 
+enum class SherpaEnvelopeStatus
 {
     ok,
     error,
@@ -42,4 +42,4 @@ public:
     std::string payload;
 };
 
-#endif 
+#endif

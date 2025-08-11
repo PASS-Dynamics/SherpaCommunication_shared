@@ -5,7 +5,9 @@
 
 class Attitude 
 {
-	Attitude();
+public:
+
+    Attitude(){}
 	
     int16_t Rool;
 
