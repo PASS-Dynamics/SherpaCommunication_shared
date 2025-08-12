@@ -6,15 +6,12 @@
 #include <vector>
 #include <utility> 
 
-struct TrackPreset 
+class TrackPreset 
 {
-<<<<<<< HEAD
 public:
 
     TrackPreset(){};
-=======
-	TrackPreset();
->>>>>>> develop
+
 	
     std::vector<std::pair<int16_t, std::string>> Tracks;
 

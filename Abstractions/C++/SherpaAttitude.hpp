@@ -5,8 +5,10 @@
 
 class SherpaAttitude 
 {
-	SherpaAttitude();
-	
+public:
+
+    SherpaAttitude() {};
+
     int16_t Rool;
 
     int16_t Pitch;
