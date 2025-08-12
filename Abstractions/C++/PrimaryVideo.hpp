@@ -6,13 +6,10 @@
 
 struct PrimaryVideo 
 {
-<<<<<<< HEAD
 public:
 
     PrimaryVideo(){};
-=======
-	PrimaryVideo();
->>>>>>> develop
+
 	
     int16_t Distance;
 

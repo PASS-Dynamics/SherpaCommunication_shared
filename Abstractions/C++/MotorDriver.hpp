@@ -13,9 +13,11 @@ typedef enum MotorDrivercmd
     set_position,
     set_reset,
     set_current,
-    set_profile
+    set_profile,
+    get_status
 
-}MotorDrivercmd;
+}MotorDriverCmd;
+
 
 class MotorDriver 
 {
@@ -23,8 +25,7 @@ public:
 
 	MotorDriver(){};
 
-    MotorDrivercmd cmd;
-	
+    MotorDriverCmd cmd;
     bool enable;
     uint8_t errors;
     uint16_t status;

@@ -5,13 +5,8 @@
 
 class CamOptions 
 {
-<<<<<<< HEAD
 public:
-
     CamOptions(){};
-=======
-	CamOptions();
->>>>>>> develop
 	
     int16_t Zoom;
 

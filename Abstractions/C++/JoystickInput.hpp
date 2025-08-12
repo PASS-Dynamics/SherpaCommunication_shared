@@ -3,7 +3,9 @@
 
 class JoystickInput 
 {
-	JoystickInput();
+public:
+
+    JoystickInput(){};
 	
     float X;
 

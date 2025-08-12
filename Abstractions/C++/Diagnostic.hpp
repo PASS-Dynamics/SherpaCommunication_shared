@@ -8,13 +8,10 @@
 
 class Diagnostic 
 {
-<<<<<<< HEAD
 public:
 
     Diagnostic(){};
-=======
-	Diagnostic();
->>>>>>> develop
+
 	
     std::vector<std::pair<int16_t, std::string>> Messages;
 };
