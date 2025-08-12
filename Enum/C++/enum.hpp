@@ -42,4 +42,10 @@ enum SherpaEnvelopeStatus : uint16_t
     Warning
 }
 
+enum SherpaEnvelopeRequestType : uint8_t 
+{
+    Pull,
+    Push
+}
+
 #endif

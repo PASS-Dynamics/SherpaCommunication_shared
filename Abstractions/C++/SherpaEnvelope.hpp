@@ -6,23 +6,6 @@
 #include <chrono>
 #include <nlohmann/json.hpp>
 
-enum class SherpaEnvelopeType 
-{
-    AcoustincHailer,
-    Attitude,
-    CamOptions,
-    Diagnostic,
-    JoystickInput,
-    LaserDazzer,
-    PostionControl,
-    PrimaryVideo,
-    RealTimeInfo,
-    SearchLigth,
-    StatusInfo,
-    TrackPreset,
-    WeatherForecast
-};
-
 enum class SherpaEnvelopeStatus 
 {
     ok,
@@ -33,7 +16,8 @@ enum class SherpaEnvelopeStatus
 template<typename T>
 struct SherpaEnvelope 
 {
-    SherpaEnvelopeType target;
+    public SherpaEnvelopeRequestType RequestType { get; set; }
+    SherpaEnvelopeType type;
     SherpaEnvelopeStatus status = SherpaEnvelopeStatus::ok;
     std::optional<std::string> error;
     std::chrono::system_clock::time_point timestamp = std::chrono::system_clock::now();
