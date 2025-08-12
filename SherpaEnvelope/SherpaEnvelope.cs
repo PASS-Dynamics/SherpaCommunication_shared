@@ -1,20 +1,22 @@
 ﻿
+using sherpa.Shared.Enum;
 
 namespace sherpa.Shared.SherpaEnvelope
 {
-
-    public class SherpaEnvelope<T> where T : class
+    public class SherpaEnvelope
     {
-        public SherpaEnvelopeType Type { get; set; }
+        public SherpaEnvelopeRequestType RequestType { get; set; }
 
-        public SherpaEnvelopeStatus Status { get; set; } = SherpaEnvelopeStatus.ok;
+        public SherpaEnvelopeType? Type { get; set; }
+
+        public SherpaEnvelopeStatus? Status { get; set; }
 
         public string? Error { get; set; }
 
-        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
+        public DateTime? Timestamp { get; set; }
 
         public string? Id { get; set; }
 
-        public string? Payload { get; set; } 
+        public string? Payload { get; set; }
     }
 }

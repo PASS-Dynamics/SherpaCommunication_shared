@@ -3,12 +3,12 @@
 
 #include <cstdint>
 
-struct SearchLight
+class SearchLight
 {    
 public:
 
     SearchLight(){};
-	
+
     bool Power;
 
     int16_t Intensity;

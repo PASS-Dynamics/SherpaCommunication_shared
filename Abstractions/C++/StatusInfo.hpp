@@ -13,7 +13,7 @@ class StatusInfo
 public:
 
     StatusInfo(){};
-	
+
     std::pair<int16_t, std::string> EmittingTrack;
 
     bool AudioTracking;

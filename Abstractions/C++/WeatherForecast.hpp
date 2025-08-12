@@ -5,12 +5,12 @@
 #include <string>
 #include <optional>
 
-struct WeatherForecast 
+class WeatherForecast 
 {
 public:
 
     WeatherForecast(){};
-	
+
     std::string Date; 
 
     int32_t TemperatureC;

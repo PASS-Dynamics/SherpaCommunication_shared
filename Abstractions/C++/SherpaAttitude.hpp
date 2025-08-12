@@ -3,12 +3,12 @@
 
 #include <cstdint>
 
-class Attitude 
+class SherpaAttitude 
 {
 public:
 
-    Attitude(){}
-	
+    SherpaAttitude() {};
+
     int16_t Rool;
 
     int16_t Pitch;

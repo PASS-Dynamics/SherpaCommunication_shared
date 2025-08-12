@@ -1,7 +1,8 @@
-﻿namespace sherpa.Shared.Abstractions
+﻿
+namespace sherpa.Shared.Abstractions
 {
     public class Diagnostic
     {
-        public required List<KeyValuePair<short, string>> Messages { get; set; }
+        public List<KeyValuePair<short, string>>? Messages { get; set; }
     }
 }

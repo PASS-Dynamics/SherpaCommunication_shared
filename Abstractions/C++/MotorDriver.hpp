@@ -7,7 +7,7 @@
 #include <utility>
 
 
-typedef enum MotorDriverCmd
+typedef enum MotorDrivercmd
 {
     set_enable,
     set_position,
@@ -16,8 +16,8 @@ typedef enum MotorDriverCmd
     set_profile,
     get_status
 
-
 }MotorDriverCmd;
+
 
 class MotorDriver 
 {
@@ -26,7 +26,6 @@ public:
 	MotorDriver(){};
 
     MotorDriverCmd cmd;
-	
     bool enable;
     uint8_t errors;
     uint16_t status;

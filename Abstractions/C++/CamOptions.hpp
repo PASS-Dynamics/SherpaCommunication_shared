@@ -6,7 +6,6 @@
 class CamOptions 
 {
 public:
-
     CamOptions(){};
 	
     int16_t Zoom;

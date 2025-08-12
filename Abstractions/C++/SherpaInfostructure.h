@@ -9,7 +9,7 @@ using json = nlohmann::json;
 
 #include "SherpaEnvelope.hpp"
 #include "AcoustincHailer.hpp"
-#include "Attitude.hpp"
+#include "SherpaAttitude.hpp"
 #include "CamOptions.hpp"
 #include "Diagnostic.hpp"
 #include "JoystickInput.hpp"
@@ -24,12 +24,21 @@ using json = nlohmann::json;
 
 
 
+//SherpaEnvelopeType type;
+//SherpaEnvelopeRequestType RequestType;
+//SherpaEnvelopeStatus status = SherpaEnvelopeStatus::Ok;
+//std::string error;
+//uint64_t timestamp = 0;
+//std::string id;
+//std::string payload;
+
 
 class SherpaEnvelopeEnv : public SherpaEnvelope {
 public:
     json to_json() {
         json j = json{
         {"Type", this->type},
+        {"RequestType", this->RequestType},
         {"Status", this->status},
         {"Error", this->error},
         {"Timestamp", this->timestamp},
@@ -41,6 +50,7 @@ public:
 
     void from_json(const json& j) {
         j.at("Type").get_to(this->type);
+        j.at("RequestType").get_to(this->RequestType);
         j.at("Status").get_to(this->status);
         j.at("Error").get_to(this->error);
         j.at("Timestamp").get_to(this->timestamp);
@@ -49,6 +59,8 @@ public:
     }
 
 };
+
+//***************************************************************************************************//
 
 
 class AcoustincHailerEnv : public AcoustincHailer {
@@ -68,7 +80,7 @@ public:
 
 
 
-class AttitudeEnv : public Attitude {
+class AttitudeEnv : public SherpaAttitude {
 public:
     json to_json() {
         json j = json{{"Rool", this->Rool}, {"Pitch", this->Pitch}, {"Hdg", this->Hdg}};
@@ -121,7 +133,7 @@ public:
 
 
     AcoustincHailer AcoustincHailer_Instance;
-    Attitude Attitude_Instance;
+    SherpaAttitude Attitude_Instance;
     CamOptions CamOptions_Instance;
     Diagnostic Diagnostic_Instance;
     JoystickInput JoystickInput_Instance;

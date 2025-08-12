@@ -2,10 +2,10 @@
 {
     public class TrackPreset
     {
-        public required List<KeyValuePair<short, string>> Tracks { get; set; }
+        public List<KeyValuePair<short, string>>? Tracks { get; set; }
 
-        public KeyValuePair<short, string> EmittingTrack { get; set; }
+        public KeyValuePair<short, string>? EmittingTrack { get; set; }
 
-        public bool Loop { get; set; }
+        public bool? Loop { get; set; }
     }
 }

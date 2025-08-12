@@ -2,10 +2,10 @@
 {
     public class PrimaryVideo
     {
-        public short Distance { get; set; }
+        public short? Distance { get; set; }
 
-        public required string ObjectIdentified { get; set; }
+        public string? ObjectIdentified { get; set; }
 
-        public short ObjectIdentifiedAccuracy { get; set; }
+        public short? ObjectIdentifiedAccuracy { get; set; }
     }
 }

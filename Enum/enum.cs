@@ -13,4 +13,35 @@
         Unknown = 1,
         ConnectionLost = 100,
     }
+
+    public enum SherpaEnvelopeType : short
+    {
+        AcousticHailer,
+        Attitude,
+        CamOptions,
+        Diagnostic,
+        JoystickInput,
+        LaserDazzer,
+        MotorDriver,
+        PostionControl,
+        PrimaryVideo,
+        RealTimeInfo,
+        SearchLight,
+        StatusInfo,
+        TrackPreset,
+        WeatherForecast
+    }
+
+    public enum SherpaEnvelopeStatus : short
+    {
+        Ok,
+        Error,
+        Warning
+    }
+
+    public enum SherpaEnvelopeRequestType : short 
+    {
+        Pull,
+        Push
+    }
 }

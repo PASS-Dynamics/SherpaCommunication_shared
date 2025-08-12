@@ -11,6 +11,7 @@ class Diagnostic
 public:
 
     Diagnostic(){};
+
 	
     std::vector<std::pair<int16_t, std::string>> Messages;
 };
