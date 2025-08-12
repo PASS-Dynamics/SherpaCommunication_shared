@@ -2,8 +2,8 @@
 {
     public class LaserDazzer
     {
-        public bool Power { get; set; }
+        public bool? Power { get; set; }
 
-        public bool Strobo { get; set; }
+        public bool? Strobo { get; set; }
     }
 }

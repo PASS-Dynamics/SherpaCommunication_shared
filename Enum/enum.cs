@@ -22,10 +22,11 @@
         Diagnostic,
         JoystickInput,
         LaserDazzer,
+        MotorDriver,
         PostionControl,
         PrimaryVideo,
         RealTimeInfo,
-        SearchLigth,
+        SearchLight,
         StatusInfo,
         TrackPreset,
         WeatherForecast
@@ -33,8 +34,14 @@
 
     public enum SherpaEnvelopeStatus : short
     {
-        ok,
-        error,
-        warning
+        Ok,
+        Error,
+        Warning
+    }
+
+    public enum SherpaEnvelopeRequestType : short 
+    {
+        Pull,
+        Push
     }
 }

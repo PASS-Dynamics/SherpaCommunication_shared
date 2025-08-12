@@ -1,11 +1,12 @@
 ﻿
-
 using sherpa.Shared.Enum;
 
 namespace sherpa.Shared.SherpaEnvelope
 {
     public class SherpaEnvelope
     {
+        public SherpaEnvelopeRequestType RequestType { get; set; }
+
         public SherpaEnvelopeType? Type { get; set; }
 
         public SherpaEnvelopeStatus? Status { get; set; }

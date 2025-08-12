@@ -25,6 +25,7 @@ enum SherpaEnvelopeType : uint16_t
     Diagnostic,
     JoystickInput,
     LaserDazzer,
+    MotorDriver,
     PostionControl,
     PrimaryVideo,
     RealTimeInfo,
@@ -36,9 +37,9 @@ enum SherpaEnvelopeType : uint16_t
 
 enum SherpaEnvelopeStatus : uint16_t 
 {
-    ok,
-    error,
-    warning
+    Ok,
+    Error,
+    Warning
 }
 
 #endif
