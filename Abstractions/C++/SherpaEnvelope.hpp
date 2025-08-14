@@ -19,7 +19,7 @@ public:
     SherpaEnvelopeRequestType RequestType;
     SherpaEnvelopeStatus status = SherpaEnvelopeStatus::Ok;
     std::string error;
-    uint64_t timestamp = 0;
+    std::string timestamp;
     std::string id;
     std::string payload;
 };

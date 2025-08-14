@@ -11,6 +11,7 @@ typedef enum MotorDrivercmd
 {
     set_enable,
     set_position,
+    get_position,
     set_reset,
     set_current,
     set_profile,

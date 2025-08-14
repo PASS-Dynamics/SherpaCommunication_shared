@@ -18,6 +18,7 @@ public:
     std::pair<int16_t, std::string> EmittingTrack;
 
     bool Loop;
+
 };
 
 #endif

@@ -21,6 +21,7 @@ public:
     int16_t Volume;
 
     int16_t AcousticBeamAperture;
+
 };
 
 #endif 

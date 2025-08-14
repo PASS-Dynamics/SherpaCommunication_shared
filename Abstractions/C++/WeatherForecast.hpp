@@ -15,7 +15,7 @@ public:
 
     int32_t TemperatureC;
 
-    std::optional<std::string> Summary;
+    std::string Summary;
 
     int32_t TemperatureF() const 
     {
