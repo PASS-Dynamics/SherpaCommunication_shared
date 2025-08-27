@@ -44,4 +44,14 @@
         Pull,
         Push
     }
+
+    public enum SherpaHdCameraCommand
+    {
+        UP,
+        DOWN,
+        LEFT,
+        RIGHT,
+        ENTER,
+        ESC
+    }
 }

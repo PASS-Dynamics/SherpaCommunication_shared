@@ -4,8 +4,10 @@
     {
         public short? Zoom { get; set; }
 
-        public bool? AutomaticBEamSync { get; set; }
+        public bool? NightMode { get; set; }
 
-        public bool? CamRec { get; set; }
+        public string? Uptime { get; set; }
+
+        public string? CpuTemperature { get; set; }
     }
 }

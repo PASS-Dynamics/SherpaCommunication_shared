@@ -10,9 +10,11 @@ public:
 	
     int16_t Zoom;
 
-    bool AutomaticBEamSync;
+    bool? NightMode
 
-    bool CamRec;
+    std::string Uptime 
+
+    std::string CpuTemperature
 };
 
 #endif

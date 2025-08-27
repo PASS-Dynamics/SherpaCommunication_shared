@@ -2,10 +2,10 @@
 {
     public class JoystickInput
     {
-        public float? X { get; set; }
+        public float X { get; set; } = 0;
 
-        public float? Y { get; set; }
+        public float Y { get; set; } = 0;
 
-        public float? Z { get; set; }
+        public float Z { get; set; } = 0;
     }
 }
